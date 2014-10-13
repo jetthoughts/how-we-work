@@ -37,4 +37,7 @@ def send_mail(source)
 end
 ```
 
+## Working with Bugs
+
+* All bugs should be covered with tests and by TDD
 
