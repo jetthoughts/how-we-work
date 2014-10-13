@@ -41,3 +41,7 @@ end
 
 * All bugs should be covered with tests and by TDD
 
+## Simplify Views
+
+* We use Decorators (in code we called them `Carrier`) as View and Form objects
+* We do not use full Presenters (TODO: add link to first post about them) with tag generations
