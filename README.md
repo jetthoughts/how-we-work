@@ -45,3 +45,13 @@ end
 
 * We use Decorators (in code we called them `Carrier`) as View and Form objects
 * We do not use full Presenters (TODO: add link to first post about them) with tag generations
+
+## Setup Development Environment
+
+* `bin/setup` - cold setup
+* `rake setup`
+* `rake setup_sample_data`
+
+## GitHub Flow
+
+
