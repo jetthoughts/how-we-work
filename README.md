@@ -52,6 +52,14 @@ end
 * `rake setup`
 * `rake setup_sample_data`
 
-## GitHub Flow
+## Delivery Flow
 
+* create PR
+* deploy PR to Heroku
+* ask verify, to code review and to merge
 
+## TODO/FIXME Notes
+
+* add issue on GitHub per each note
+* create TODO/FIXME note in the code
+* add in code's note link to GitHub's issue
