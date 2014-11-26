@@ -82,4 +82,4 @@ end
 ## Best Practices
 
 * [Exceptions should be exceptional.](http://pragmatictips.com/34)
-* [KISS ... your ASS :P](http://code.mumak.net/2012/02/simple-made-easy.html)
+* [KISS ... your ARSE :P](http://code.mumak.net/2012/02/simple-made-easy.html)
