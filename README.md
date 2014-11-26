@@ -63,3 +63,20 @@ end
 * add issue on GitHub per each note
 * create TODO/FIXME note in the code
 * add in code's note link to GitHub's issue
+ 
+## Git/GitHub
+
+* Prefix feature branch names with issue number.
+* do not mess with cosmetics changes
+* Squash multiple trivial commits into a single commit.
+* Write a good commit message based on http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html with some requirements:
+  ```
+  #<github_id>: Capitalized, short (50 chars or less) summary
+  
+  More detailed explanatory ...
+  
+  Closes #<other_github_issue_id>
+  ```
+   
+
+
