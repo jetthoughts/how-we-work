@@ -7,7 +7,7 @@ How We Work
 As usual we use [bbatsov/ruby-style-guide](https://github.com/bbatsov/ruby-style-guide), 
 but have some specific usage:
 
-* Limit lines to 104 characters, in order to remove horizontal scrolling on GitHub when we are doing code review
+* Limit lines to 110 characters, in order to remove horizontal scrolling on GitHub when we are doing code review
 * Align parameters like:
 
 ```ruby
