@@ -83,3 +83,10 @@ end
 
 * [Exceptions should be exceptional.](http://pragmatictips.com/34)
 * [KISS ... your ARSE :P](http://code.mumak.net/2012/02/simple-made-easy.html)
+
+## Tutorials
+* HTML/CSS3:
+  * [Learn CSS Layout](http://learnlayout.com/)
+* Web Performance:
+  * [Website Performance Optimization: The Critical Rendering Path](https://www.udacity.com/course/ud884)
+
