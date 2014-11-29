@@ -1,8 +1,7 @@
 How We Work
 ===========
 
-
-## Formatting
+## Formatting/Conventions
 
 As usual we use [bbatsov/ruby-style-guide](https://github.com/bbatsov/ruby-style-guide), 
 but have some specific usage:
@@ -34,6 +33,21 @@ def send_mail(source)
     subject: 'Important message',
     body: source.text
   )
+end
+```
+* Use prefix `_` for memo variables:
+ 
+```ruby
+class TestObject
+  attr_reader :attr_name
+  
+  def attr_name
+    @attr_name ||= lazy_calculation_for_attr_name
+  end
+  
+  def public_method_with_memo
+    @_public_method_with_memo ||= public_method_with_memo_calculcations
+  end
 end
 ```
 
