@@ -95,7 +95,7 @@ end
 
 ## Best Practices
 
-* [Exceptions should be exceptional.](http://pragmatictips.com/34)
+* [Exceptions should be exceptional.](http://etdev.me/pragmatic/34/)
 * [KISS ... your ARSE :P](http://code.mumak.net/2012/02/simple-made-easy.html)
 
 ## Tutorials
