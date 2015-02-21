@@ -104,3 +104,13 @@ end
 * Web Performance:
   * [Website Performance Optimization: The Critical Rendering Path](https://www.udacity.com/course/ud884)
 
+## Tools:
+* Collabration:
+  * Chat: Slack
+  * Issues Plannings: Github, Trello and Waffle.io
+  * Information board: Hackpad, Google Site, Trello
+* CI:
+  * TeamCity (self hosted)
+  * Snap-CI (one private repo free)
+* Server Conf: Chef
+* Deployments: Capistrano
