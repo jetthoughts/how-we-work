@@ -91,7 +91,7 @@ end
   
   Closes #<other_github_issue_id>
   ```
-   
+  Also some examples: https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message
 
 ## Best Practices
 
