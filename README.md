@@ -111,10 +111,12 @@ end
   * Information board: Hackpad, Google Site, Trello
   * Screenshots: Skitch (OS X), Screencloud (Ubuntu, OS X)
   * Screencast: Kazam (Ubuntu)
-  * PAAS for Isolated Staging Testing: Heroku (Rails apps), divshot.io (static HTML)
-  * Assets and File Uploads CDN hosting: AWS, Cloudinary (Images Uploads)
 * CI:
   * TeamCity (self hosted)
   * Snap-CI (one private repo free)
 * Server Conf: Chef
 * Deployments: Capistrano
+* Assets and File Uploads CDN hosting: AWS, Cloudinary (Images Uploads)
+* PAAS for Isolated Staging Testing: Heroku (Rails apps), divshot.io (static HTML)
+* Cache: Memcached Cloud from Redis Lab
+* JavaScript Base Frameworks: jQuery, React.js, Angular.js, Backbone.js
