@@ -111,6 +111,7 @@ end
   * Information board: Hackpad, Google Site, Trello
   * Screenshots: Skitch (OS X), Screencloud (Ubuntu, OS X)
   * Screencast: Kazam (Ubuntu)
+  * PAAS for Isolated Staging Testing: Heroku (Rails apps), divshot.io (static HTML)
 * CI:
   * TeamCity (self hosted)
   * Snap-CI (one private repo free)
