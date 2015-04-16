@@ -112,6 +112,7 @@ end
   * Screenshots: Skitch (OS X), Screencloud (Ubuntu, OS X)
   * Screencast: Kazam (Ubuntu)
   * PAAS for Isolated Staging Testing: Heroku (Rails apps), divshot.io (static HTML)
+  * Assets and File Uploads CDN hosting: AWS, Cloudinary (Images Uploads)
 * CI:
   * TeamCity (self hosted)
   * Snap-CI (one private repo free)
