@@ -120,3 +120,4 @@ end
 * PAAS for Isolated Staging Testing: Heroku (Rails apps), divshot.io (static HTML)
 * Cache: Memcached Cloud from Redis Lab
 * JavaScript Base Frameworks: jQuery, React.js, Angular.js, Backbone.js
+* SCM: Git on GitHub
