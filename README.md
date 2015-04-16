@@ -109,6 +109,8 @@ end
   * Chat: Slack
   * Issues Plannings: Github, Trello and Waffle.io
   * Information board: Hackpad, Google Site, Trello
+  * Screenshots: Skitch (OS X), Screencloud (Ubuntu, OS X)
+  * Screencast: Kazam (Ubuntu)
 * CI:
   * TeamCity (self hosted)
   * Snap-CI (one private repo free)
