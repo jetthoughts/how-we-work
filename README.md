@@ -98,7 +98,7 @@ end
 * [Exceptions should be exceptional.](http://etdev.me/pragmatic/34/)
 * [KISS ... your ARSE :P](http://code.mumak.net/2012/02/simple-made-easy.html)
 * Stub/Mock only external services or code with hard simulation: https://www.youtube.com/watch?v=z9quxZsLcfo&feature=youtu.be&t=21m00s
-* [Test structure.](http://xunitpatterns.com/Four%20Phase%20Test.html)
+* [Four-Phase Test](http://xunitpatterns.com/Four%20Phase%20Test.html)
 
 ## Tutorials
 * HTML/CSS3:
