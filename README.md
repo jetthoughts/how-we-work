@@ -93,6 +93,11 @@ end
   ```
   Also some examples: https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message
 
+* Tutorials:
+  * https://www.atlassian.com/git/tutorials/
+  * http://git-scm.com/docs/gittutorial
+  * https://try.github.io/ 
+
 ## Best Practices
 
 * [Exceptions should be exceptional.](http://etdev.me/pragmatic/34/)
