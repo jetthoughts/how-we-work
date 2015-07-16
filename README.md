@@ -77,6 +77,10 @@ end
 * add issue on GitHub per each note
 * create TODO/FIXME note in the code
 * add in code's note link to GitHub's issue
+
+## General templates
+
+* JavaScript Page logic organisation: https://github.com/tastejs/todomvc/blob/gh-pages/examples/jquery/js/app.js
  
 ## Git/GitHub
 
