@@ -3,8 +3,13 @@ How We Work
 
 ## Formatting/Conventions
 
-As usual we use [bbatsov/ruby-style-guide](https://github.com/bbatsov/ruby-style-guide), 
-but have some specific usage:
+Base styles guides:
+
+* Ruby - [bbatsov/ruby-style-guide](https://github.com/bbatsov/ruby-style-guide)
+* CSS - [airbnb/css](https://github.com/airbnb/css)
+* JavaScript - [airbnb/javascript](https://github.com/airbnb/javascript)
+
+Our updates:
 
 * Limit lines to 110 characters, in order to remove horizontal scrolling on GitHub when we are doing code review
 * Align parameters like:
