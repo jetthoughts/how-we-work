@@ -6,7 +6,7 @@ How We Work
 Base styles guides:
 
 * Ruby - [bbatsov/ruby-style-guide](https://github.com/bbatsov/ruby-style-guide)
-* CSS - [airbnb/css](https://github.com/airbnb/css)
+* CSS - [JT CSS Style Guide](https://github.com/jetthoughts/how-we-work/blob/master/css.md)
 * JavaScript - [airbnb/javascript](https://github.com/airbnb/javascript)
 
 Our updates:
