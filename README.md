@@ -62,7 +62,7 @@ end
 
 ## Simplify Views
 
-* We use Decorators (in code we called them `Carrier`) as View and Form objects
+* We use Decorators (in code we called them `Carrier`) as View and Form objects: [introudction how to use them](https://goo.gl/photos/nN1yNNqUoyKEK6an7)
 * We do not use full Presenters (TODO: add link to first post about them) with tag generations
 
 ## Setup Development Environment
