@@ -102,6 +102,10 @@ end
   Closes #<other_github_issue_id>
   ```
   Also some examples: https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message
+  
+* Project management:
+  * Used user stories format: https://www.mountaingoatsoftware.com/agile/user-stories and http://www.alexandercowan.com/best-agile-user-story/
+  * Tests scenarios and Reproduction steps format: https://github.com/cucumber/cucumber/wiki/Given-When-Then
 
 * Tutorials:
   * https://www.atlassian.com/git/tutorials/
