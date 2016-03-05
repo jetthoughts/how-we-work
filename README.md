@@ -124,6 +124,8 @@ end
   * [Learn CSS Layout](http://learnlayout.com/)
 * Web Performance:
   * [Website Performance Optimization: The Critical Rendering Path](https://www.udacity.com/course/ud884)
+* ES6: https://www.eventbrite.com/engineering/tag/learning-es6/
+  
 
 ## Tools:
 * Collabration:
