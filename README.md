@@ -136,7 +136,7 @@ end
   * Screencast: Kazam (Ubuntu)
 * CI:
   * TeamCity (self hosted)
-  * Snap-CI (one private repo free)
+  * CircleCI
 * Server Conf: Chef
 * Deployments: Capistrano
 * Assets and File Uploads CDN hosting: AWS, Cloudinary (Images Uploads)
