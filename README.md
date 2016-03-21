@@ -62,7 +62,7 @@ end
 
 ## Simplify Views
 
-* We use Decorators (in code we called them `Carrier`) as View and Form objects: [introudction how to use them](https://goo.gl/photos/nN1yNNqUoyKEK6an7)
+* We use Decorators (in code we called them `Carrier`) as View and Form objects: [introduction how to use them](https://goo.gl/photos/nN1yNNqUoyKEK6an7)
 * We do not use full Presenters (TODO: add link to first post about them) with tag generations
 
 ## Setup Development Environment
@@ -128,7 +128,7 @@ end
   
 
 ## Tools:
-* Collabration:
+* Collaboration:
   * Chat: Slack
   * Issues Plannings: Github, Trello and Waffle.io
   * Information board: Hackpad, Google Site, Trello
