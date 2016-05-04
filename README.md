@@ -15,14 +15,7 @@ Our updates:
 * Align parameters like:
 
 ```ruby
-# not so bad
-def send_mail(source)
-  Mailer.deliver(
-    to: 'bob@example.com', from: 'us@example.com'
-  )
-end
-
-# good
+# good, but DEPRECATED
 def send_mail(source)
   Mailer.deliver(to: 'bob@example.com',
                  from: 'us@example.com',
@@ -30,7 +23,14 @@ def send_mail(source)
                  body: source.text)
 end
 
-# good (normal indent)
+# not so bad
+def send_mail(source)
+  Mailer.deliver(
+    to: 'bob@example.com', from: 'us@example.com'
+  )
+end
+
+# good (normal indent) PREFERABLE
 def send_mail(source)
   Mailer.deliver(
     to: 'bob@example.com',
