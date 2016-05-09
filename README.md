@@ -95,7 +95,7 @@ end
 * do not mess with cosmetics changes
 * Squash multiple trivial commits into a single commit.
 * Convert an existing issue into a pull request: `hub pull-request -i 123`
-* Write a good commit message based on http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html with some requirements:
+* Write a good commit message based on http://chris.beams.io/posts/git-commit/ with some requirements:
   ```
   #<github_id>: Capitalized, short (50 chars or less) summary
   
@@ -103,7 +103,10 @@ end
   
   Closes #<other_github_issue_id>
   ```
-  Also some examples: https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message
+  Also some examples:
+
+  * http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
+  * https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message
   
 * Project management:
   * Used user stories format: https://www.mountaingoatsoftware.com/agile/user-stories and http://www.alexandercowan.com/best-agile-user-story/
