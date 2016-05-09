@@ -56,6 +56,8 @@ class TestObject
 end
 ```
 
+* Stick to [Newlines](https://github.com/airbnb/ruby#newlines) section of Airbnb's Ruby style guide for grouping the code within methods.
+
 ## Working with Bugs
 
 * All bugs should be covered with tests and by TDD
