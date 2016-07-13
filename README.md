@@ -15,12 +15,14 @@ Our updates:
 * Align parameters like:
 
 ```ruby
-# good, but DEPRECATED
+# good (normal indent) PREFERABLE
 def send_mail(source)
-  Mailer.deliver(to: 'bob@example.com',
-                 from: 'us@example.com',
-                 subject: 'Important message',
-                 body: source.text)
+  Mailer.deliver(
+    to: 'bob@example.com',
+    from: 'us@example.com',
+    subject: 'Important message',
+    body: source.text
+  )
 end
 
 # not so bad
@@ -30,14 +32,12 @@ def send_mail(source)
   )
 end
 
-# good (normal indent) PREFERABLE
+# good, but DEPRECATED
 def send_mail(source)
-  Mailer.deliver(
-    to: 'bob@example.com',
-    from: 'us@example.com',
-    subject: 'Important message',
-    body: source.text
-  )
+  Mailer.deliver(to: 'bob@example.com',
+                 from: 'us@example.com',
+                 subject: 'Important message',
+                 body: source.text)
 end
 ```
 * Use prefix `_` for memo variables:
