@@ -92,10 +92,10 @@ end
  
 ## Git/GitHub
 
-* Prefix feature branch names with issue number.
-* do not mess with cosmetics changes
-* Squash multiple trivial commits into a single commit.
-* Convert an existing issue into a pull request: `hub pull-request -i 123`
+* Prefix feature branch names with issue number: 123-issue-name;
+* do not mess with cosmetics changes;
+* Squash multiple trivial commits into a single commit;
+* Convert an existing issue into a pull request: `hub pull-request -i 123`;
 * Write a good commit message based on http://chris.beams.io/posts/git-commit/ with some requirements:
   ```
   #<github_id>: Capitalized, short (50 chars or less) summary
