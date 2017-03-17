@@ -1,6 +1,10 @@
 How We Work
 ===========
 
+## Other Guides:
+
+* [For Product Owners](product.md)
+
 ## Formatting/Conventions
 
 Base styles guides:
