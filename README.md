@@ -1,6 +1,12 @@
 How We Work
 ===========
 
+## Values & Core Principles
+
+* Fairness
+* Joy
+* [Kaizen](https://en.wikipedia.org/wiki/Kaizen)
+
 ## Other Guides:
 
 * [For Product Owners](product.md)
@@ -122,12 +128,17 @@ end
   * http://git-scm.com/docs/gittutorial
   * https://try.github.io/ 
 
-## Best Practices
+## Development Best Practices
 
 * [Exceptions should be exceptional.](http://etdev.me/pragmatic/34/)
 * [KISS ... your ARSE :P](http://code.mumak.net/2012/02/simple-made-easy.html)
 * Stub/Mock only external services or code with hard simulation: https://www.youtube.com/watch?v=z9quxZsLcfo&feature=youtu.be&t=21m00s
 * [Four-Phase Test](http://xunitpatterns.com/Four%20Phase%20Test.html)
+
+## Other Tools and Practices to use
+
+* [UX from Good UI](http://www.goodui.org/)
+* [Material design](https://material.io/)
 
 ## Tutorials
 * HTML/CSS3:
