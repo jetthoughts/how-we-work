@@ -148,6 +148,15 @@ end
 * ES6: https://www.eventbrite.com/engineering/tag/learning-es6/
   
 
+## Constraints which makes fun development
+
+* 2 days per PR
+* 2 Issues/PR per Developer
+* [1000/100/6 performance model](https://www.paulirish.com/2015/advanced-performance-audits-with-devtools/)
+* 5 min to pass all test suites
+* 20 sec to run one test
+* 20 sec to boot
+
 ## Tools:
 * Collaboration:
   * Chat: Slack
