@@ -1,0 +1,86 @@
+AllCops:
+  TargetRubyVersion: 2.4
+
+# For now our code is not ready, but we should fix it soon
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Lint/HandleExceptions:
+  Exclude:
+    - 'bin/rails'
+    - 'bin/rake'
+
+# Configuration parameters: AllowURI, URISchemes.
+ClassLength:
+  Max: 150
+
+Metrics/LineLength:
+  Max: 113
+
+Metrics/MethodLength:
+  CountComments: false
+  Max: 20
+
+Metrics/BlockLength:
+  Exclude:
+    - "**/*_spec.rb"
+
+Style/Documentation:
+  Enabled: false
+
+Style/EmptyLines:
+  Exclude:
+    - 'config/environments/development.rb'
+
+Style/EmptyLinesAroundBlockBody:
+  Exclude:
+    - 'db/schema.rb'
+
+Style/StringLiterals:
+  Exclude:
+    - 'db/schema.rb'
+
+Style/ExtraSpacing:
+  Exclude:
+    - 'config/environments/development.rb'
+
+Style/PredicateName:
+  Exclude:
+    - 'app/helpers/application_helper.rb'
+
+Style/ClassAndModuleChildren:
+  EnforcedStyle: nested
+  SupportedStyles:
+    - nested
+    - compact
+  Exclude:
+    - 'app/controllers/**/*.rb'
+
+Style/MultilineOperationIndentation:
+  EnforcedStyle: indented
+
+Style/MultilineMethodCallIndentation:
+  EnforcedStyle: indented_relative_to_receiver
+
+Style/AlignParameters:
+  EnforcedStyle: with_fixed_indentation
+
+Lint/EndAlignment:
+  EnforcedStyleAlignWith: variable
+
+Style/SafeNavigation:
+  Enabled: false
+
+Style/AlignHash:
+  EnforcedHashRocketStyle: key
+  EnforcedColonStyle: key
+  EnforcedLastArgumentHashStyle: always_inspect
+
+Style/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+
+Style/NegatedIf:
+  Enabled: false
+
+Style/GuardClause:
+  Enabled: false

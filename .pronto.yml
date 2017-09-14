@@ -1,0 +1,9 @@
+all:
+  exclude: [
+            vendor/assets/**/*,
+            bin/*,
+            db/schema.rb,
+            db/migrate/*
+           ]
+AllCops:
+  TargetRubyVersion: 2.4.1
