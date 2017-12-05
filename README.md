@@ -11,6 +11,12 @@ How We Work
 
 * [For Product Owners](product.md)
 
+## Base Strucutring Projects
+
+* SCSS: Structure is based on [RSCSS](https://github.com/rstacruz/rscss)
+* Vanila JavaScript: Strucutre is based on [RSJS](https://github.com/rstacruz/rsjs)
+* Other common structure of JavaScript Page logic: https://github.com/tastejs/todomvc/blob/gh-pages/examples/jquery/js/app.js
+
 ## Formatting/Conventions
 
 Base styles guides:
@@ -70,41 +76,38 @@ end
 
 ## Working with Bugs
 
-* All bugs should be covered with tests and by TDD
+* All bugs should be covered with tests and by **TDD**
 
 ## Ruby on Rails Conventions
 
 * We use Decorators (in code we called them `Carrier`) as View and Form objects: [introduction how to use them](https://goo.gl/photos/nN1yNNqUoyKEK6an7)
-* We do not use full Presenters (TODO: add link to first post about them) with tag generations
-* We do not over use by [Concerns](https://blog.codeship.com/when-to-be-concerned-about-concerns/)
+* We do not use full Presenters (TODO: add link to first post about them) with any tag generations
+* We do not overuse of [Concerns](https://blog.codeship.com/when-to-be-concerned-about-concerns/)
 
 ## Setup Development Environment
 
 * `bin/setup` - cold setup
-* `rake setup`
-* `rake setup_sample_data`
+* `bin/update` - update environment on new code updates
 
 ## Delivery Flow
 
-* create PR
-* deploy PR to Heroku
-* ask verify, to code review and to merge
+Our flow is based on GitHub flow with Heroku Review
+
+* create PR (we convert issues into PR)
+* deploy PR to Heroku (we use Heroku Review to do this automatically)
+* ask verify, to code review and to merge (we have Code Review)
 
 ## TODO/FIXME Notes
 
 * add issue on GitHub per each note
 * create TODO/FIXME note in the code
 * add in code's note link to GitHub's issue
-
-## General templates
-
-* JavaScript Page logic organisation: https://github.com/tastejs/todomvc/blob/gh-pages/examples/jquery/js/app.js
  
 ## Git/GitHub
 
-* Prefix feature branch names with issue number: 123-issue-name;
+* Prefix feature branch names with issue number: *123-issue-name*;
 * do not mess with cosmetics changes;
-* Squash multiple trivial commits into a single commit;
+* Squash multiple trivial commits into a single commit (we prefer to use Squash and Merge from GitHub UI to merge PR);
 * Convert an existing issue into a pull request: `hub pull-request -i 123`;
 * Write a good commit message based on http://chris.beams.io/posts/git-commit/ with some requirements:
   ```
@@ -141,11 +144,13 @@ end
 * [Material design](https://material.io/)
 
 ## Tutorials
+
 * HTML/CSS3:
   * [Learn CSS Layout](http://learnlayout.com/)
 * Web Performance:
   * [Website Performance Optimization: The Critical Rendering Path](https://www.udacity.com/course/ud884)
 * ES6: https://www.eventbrite.com/engineering/tag/learning-es6/
+* React.js/Redux: https://egghead.io/browse/frameworks/react
   
 
 ## Constraints which makes fun development
@@ -160,17 +165,17 @@ end
 ## Tools:
 * Collaboration:
   * Chat: Slack
-  * Issues Plannings: Github, Trello and Waffle.io
-  * Information board: Hackpad, Google Site, Trello
-  * Screenshots: Skitch (OS X), Screencloud (Ubuntu, OS X)
-  * Screencast: Kazam (Ubuntu)
+  * Issues Plannings: Github, Trello
+  * Information board: Trello
+  * Screenshots: [CloudApp](https://www.getcloudapp.com/)
+  * Screencast: [Loom](https://www.useloom.com) Kazam (Ubuntu)
 * CI:
+  * [CircleCI](https://circleci.com/)
   * TeamCity (self hosted)
-  * CircleCI
-* Server Conf: Chef
+* Server Conf: Chef, Ansible
 * Deployments: Capistrano
 * Assets and File Uploads CDN hosting: AWS, Cloudinary (Images Uploads)
-* PAAS for Isolated Staging Testing: Heroku (Rails apps), divshot.io (static HTML)
-* Cache: Memcached Cloud from Redis Lab
+* PAAS for Isolated Staging Testing: [Heroku](https://heroku.com) (Rails apps), [surge.sh](http://surge.sh/) (static HTML)
+* Cache: Memcached/Redis Cloud from Redis Lab
 * JavaScript Base Frameworks: jQuery, React.js, Angular.js, Backbone.js
 * SCM: Git on GitHub
