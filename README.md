@@ -147,6 +147,7 @@ Our flow is based on GitHub flow with Heroku Review
 
 * HTML/CSS3:
   * [Learn CSS Layout](http://learnlayout.com/)
+  * [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * Web Performance:
   * [Website Performance Optimization: The Critical Rendering Path](https://www.udacity.com/course/ud884)
 * ES6: https://www.eventbrite.com/engineering/tag/learning-es6/
