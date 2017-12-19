@@ -16,3 +16,7 @@
 # Overall Product Owner Role
 
 * https://www.intercom.com/books/product-management
+
+# Team Playbooks
+
+* [The Atlassian Team Playbook](https://www.atlassian.com/team-playbook)
