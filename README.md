@@ -143,7 +143,7 @@ Our flow is based on GitHub flow with Heroku Review
 * [UX from Good UI](http://www.goodui.org/)
 * [Material design](https://material.io/)
 
-## Tutorials
+## Recomended Tutorials
 
 * HTML/CSS3:
   * [Learn CSS Layout](http://learnlayout.com/)
@@ -165,18 +165,18 @@ Our flow is based on GitHub flow with Heroku Review
 
 ## Tools:
 * Collaboration:
-  * Chat: Slack
-  * Issues Plannings: Github, Trello
-  * Information board: Trello
+  * Chat: [Slack](slack.com)
+  * Issues Plannings: [Github](https://github.com), [Trello](https://trello.com)
+  * Information board: [Trello](https://trello.com)
   * Screenshots: [CloudApp](https://www.getcloudapp.com/)
-  * Screencast: [Loom](https://www.useloom.com) Kazam (Ubuntu)
+  * Screencast: [Loom](https://www.useloom.com), Kazam (Ubuntu)
 * CI:
   * [CircleCI](https://circleci.com/)
-  * TeamCity (self hosted)
-* Server Conf: Chef, Ansible
+  * [TeamCity](https://www.jetbrains.com/teamcity/)
+* Server Configuation: Chef, Ansible
 * Deployments: Capistrano
-* Assets and File Uploads CDN hosting: AWS, Cloudinary (Images Uploads)
-* PAAS for Isolated Staging Testing: [Heroku](https://heroku.com) (Rails apps), [surge.sh](http://surge.sh/) (static HTML)
+* Assets and File Uploads CDN hosting: AWS, CloudFront, Cloudinary (Images Uploads)
+* PAAS for Isolated Staging Testing: [Heroku](https://heroku.com) (Ruby on Rails apps), [surge.sh](http://surge.sh/) (Static HTML)
 * Cache: Memcached/Redis Cloud from Redis Lab
-* JavaScript Base Frameworks: jQuery, React.js, Angular.js, Backbone.js
-* SCM: Git on GitHub
+* JavaScript Base Frameworks: Vanilla JS, jQuery, Vue.js, React.js
+* SCM: [GitHub](https://github.com)
