@@ -133,7 +133,7 @@ Our flow is based on GitHub flow with Heroku Review
 
 ## Development Best Practices
 
-* [Exceptions should be exceptional.](http://etdev.me/pragmatic/34/)
+* [Exceptions should be exceptional](https://jacopretorius.net/2009/10/exceptions-should-be-exceptional.html)
 * [KISS ... your ARSE :P](http://code.mumak.net/2012/02/simple-made-easy.html)
 * Stub/Mock only external services or code with hard simulation: https://www.youtube.com/watch?v=z9quxZsLcfo&feature=youtu.be&t=21m00s
 * [Four-Phase Test](http://xunitpatterns.com/Four%20Phase%20Test.html)
