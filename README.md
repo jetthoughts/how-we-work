@@ -168,7 +168,7 @@ Our flow is based on GitHub flow with Heroku Review
   * Chat: [Slack](slack.com)
   * Issues Plannings: [Github](https://github.com), [Trello](https://trello.com)
   * Information board: [Trello](https://trello.com)
-  * Screenshots: [CloudApp](https://www.getcloudapp.com/)
+  * Screenshots: [CloudApp](https://www.getcloudapp.com/), [Joxi](http://joxi.net/) (Ubuntu)
   * Screencast: [Loom](https://www.useloom.com), Kazam (Ubuntu)
 * CI:
   * [CircleCI](https://circleci.com/)
