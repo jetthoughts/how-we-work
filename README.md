@@ -10,6 +10,7 @@ How We Work
 ## Other Guides:
 
 * [For Product Owners](product.md)
+* [Thoughtbot's Guides](https://github.com/thoughtbot/guides)
 
 ## Base Strucutring Projects
 
