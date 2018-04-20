@@ -1,4 +1,4 @@
-How We Work
+JTology - How We Work
 ===========
 
 ## Values & Core Principles
