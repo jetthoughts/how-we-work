@@ -106,22 +106,25 @@ Our flow is based on GitHub flow with Heroku Review
  
 ## Git/GitHub
 
+* [Basic git crash course for minimum git commands enough to work on the project](https://jtway.co/how-do-we-git-it-in-jetthoughts-a002b4dba223)
 * Prefix feature branch names with issue number: *123-issue-name*;
-* do not mess with cosmetics changes;
-* Squash multiple trivial commits into a single commit (we prefer to use Squash and Merge from GitHub UI to merge PR);
+* Do not mess with cosmetics changes. Move them in separate commit or pr;
+* Squash multiple trivial commits into a single commit;
 * Convert an existing issue into a pull request: `hub pull-request -i 123`;
-* Write a good commit message based on http://chris.beams.io/posts/git-commit/ with some requirements:
+* <a name="git-commit-message"></a>Write a good commit message based on http://chris.beams.io/posts/git-commit/ with some requirements<sup>[[link](#git-commit-message)]</sup>:
   ```
-  #<github_id>: Capitalized, short (50 chars or less) summary
+  Capitalized, the imperative mood, short (50 chars or less) subject (#<github_id>)
   
-  More detailed explanatory ...
+  Body after space line. Wrap the body at 72 characters.
+  Use the body to explain what and why.
   
-  Closes #<other_github_issue_id>
+  Closes #<other_github_issue_id>, fixes #<another_github_issue_id>
   ```
   Also some examples:
 
   * http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
   * https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message
+  * https://github.com/RomuloOliveira/commit-messages-guide
   
 * Project management:
   * Used user stories format: https://www.mountaingoatsoftware.com/agile/user-stories and http://www.alexandercowan.com/best-agile-user-story/
