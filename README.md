@@ -171,7 +171,7 @@ Our flow is based on GitHub flow with Heroku Review
 
 ## Tools:
 * Collaboration:
-  * Chat: [Slack](slack.com)
+  * Chat: [Discord](https://discordapp.com/)
   * Issues Plannings: [Github](https://github.com), [Trello](https://trello.com)
   * Information board: [Trello](https://trello.com)
   * Screenshots: [CloudApp](https://www.getcloudapp.com/), [Joxi](http://joxi.net/) (Ubuntu)
@@ -179,11 +179,10 @@ Our flow is based on GitHub flow with Heroku Review
   * Video call: [Appear.in](https://appear.in/)
 * CI:
   * [CircleCI](https://circleci.com/)
-  * [TeamCity](https://www.jetbrains.com/teamcity/)
-* Server Configuation: Chef, Ansible
+* Server Configuation: [Ansible](https://www.ansible.com/)
 * Deployments: Capistrano
 * Assets and File Uploads CDN hosting: AWS, CloudFront, Cloudinary (Images Uploads)
 * PAAS for Isolated Staging Testing: [Heroku](https://heroku.com) (Ruby on Rails apps), [surge.sh](http://surge.sh/) (Static HTML)
 * Cache: Memcached/Redis Cloud from Redis Lab
-* JavaScript Base Frameworks: Vanilla JS, jQuery, Vue.js, React.js
+* JavaScript Base Frameworks: [Stimulus](https://github.com/stimulusjs/stimulus), Vanilla JS, [Vue.js](https://vuejs.org/), [React](https://reactjs.org/)
 * SCM: [GitHub](https://github.com)
