@@ -97,6 +97,7 @@ Our flow is based on GitHub flow with Heroku Review
 
 * create PR (we convert issues into PR)
 * deploy PR to Heroku (we use Heroku Review to do this automatically)
+* verify on Heroku yourselves
 * ask verify, to code review and to merge (we have Code Review)
 
 ## TODO/FIXME Notes
