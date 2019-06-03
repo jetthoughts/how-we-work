@@ -84,6 +84,7 @@ end
 * We use Decorators (in code we called them `Carrier`) as View and Form objects: [introduction how to use them](https://goo.gl/photos/nN1yNNqUoyKEK6an7)
 * We do not use full Presenters (TODO: add link to first post about them) with any tag generations
 * We do not overuse of [Concerns](https://blog.codeship.com/when-to-be-concerned-about-concerns/)
+* <a name="prevent-syntax-sugar-overuse"></a>We do not overuse (in 99% of our code we do not see such stuff): `send`, `&.`, `**`. To prevent misusage of Ruby Syntax Sugars <sup>[[link](#prevent-syntax-sugar-overuse)]</sup>
 
 ## Setup Development Environment
 
