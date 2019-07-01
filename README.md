@@ -128,7 +128,7 @@ Our flow is based on GitHub flow with Heroku Review
   * https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message
   * https://github.com/RomuloOliveira/commit-messages-guide
   
-* Create Issue Template
+* <a name="git-issue-template">#</a> Create Issue Template
     * **Title:** Jobs to be done
     * **Body:**
     
