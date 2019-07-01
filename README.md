@@ -128,9 +128,19 @@ Our flow is based on GitHub flow with Heroku Review
   * https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message
   * https://github.com/RomuloOliveira/commit-messages-guide
   
-* Project management:
-  * Used user stories format: https://www.mountaingoatsoftware.com/agile/user-stories and http://www.alexandercowan.com/best-agile-user-story/
-  * Tests scenarios and Reproduction steps format: https://github.com/cucumber/cucumber/wiki/Given-When-Then
+* Create Issue Template
+    * **Title:** Jobs to be done
+    * **Body:**
+    
+      *1. Acceptance Criteria*
+      
+      Acceptance criteria is that a developer knows they need to complete before that issue can be considered 'done'.
+      They are the points against which the issue will be tested.
+
+      *2. A screenshot or mock up of a new design*
+   
+       A picture which illustrates what the issue should be creating or a screenshot of an existing page showing where a bug is occurring.
+       Remember to include mock ups of both mobile and desktop views.
 
 * Tutorials:
   * https://www.atlassian.com/git/tutorials/
