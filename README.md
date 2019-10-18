@@ -88,7 +88,7 @@ end
 
 ## Test Conventions
 
-* We use the meaningful names in the test cases. It makes easier to understand the business logic.<sup>[[link](https://how-we-work.bigbinary.com/tests/meaningful-names-in-test.html)]</sup>
+* We use the meaningful names in the test cases. It makes easier to understand the business logic.<sup>[[link](#meaningful-names-in-tests)]</sup>
 
 ```ruby
 # bad
