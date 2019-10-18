@@ -86,6 +86,24 @@ end
 * We do not overuse of [Concerns](https://blog.codeship.com/when-to-be-concerned-about-concerns/)
 * <a name="prevent-syntax-sugar-overuse"></a>We do not overuse (in 99% of our code we do not see such stuff): `send`, `&.`, `**`. To prevent misusage of Ruby Syntax Sugars <sup>[[link](#prevent-syntax-sugar-overuse)]</sup>
 
+## Test Conventions
+
+* We use the meaningful names in the test cases. It makes easier to understand the business logic.<sup>[[link](https://how-we-work.bigbinary.com/tests/meaningful-names-in-test.html)]</sup>
+
+```ruby
+# bad
+def test_email_is_normalized
+  user = User.create! email: ' strAngeEmail@example.com'
+  assert_equal 'strangeemail@example.com', user.email
+end
+
+# good
+def test_email_is_normalized
+  user = User.create! email: ' thisIsAMixedCaseEmail@example.com'
+  assert_equal 'thisisamixedcaseemail@example.com', user.email
+end
+```
+
 ## Setup Development Environment
 
 * `bin/setup` - cold setup
