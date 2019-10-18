@@ -88,7 +88,7 @@ end
 
 ## Test Conventions
 
-* We use the meaningful names in the test cases. It makes easier to understand the business logic.<sup>[[link](#meaningful-names-in-tests)]</sup>
+* <a name="meaningful-names-in-tests"></a>We use the meaningful names in the test cases. It makes easier to understand the business logic.<sup>[[link](#meaningful-names-in-tests)]</sup>
 
 ```ruby
 # bad
