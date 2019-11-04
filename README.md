@@ -103,7 +103,7 @@ def test_email_is_normalized
   assert_equal 'thisisamixedcaseemail@example.com', user.email
 end
 ```
-* <a name="big-fixtures-in-tests">Do not load more data than needed to test your code. For each test create exactly what it needs and not more. More variations provides more complexities.<sup>[[link](#big-fixtures-in-tests)]</sup>
+* <a name="big-fixtures-in-tests"></a>Do not load more data than needed to test your code. For each test create exactly what it needs and not more. More variations provides more complexities.<sup>[[link](#big-fixtures-in-tests)]</sup>
 
 ```ruby
 # BAD
@@ -152,7 +152,7 @@ test 'this test use only user_with_small_name' do
 end
 ```
 
-* <a name="dynamic-cases-in-tests">No Dynamic Test generation.<sup>[[link](#dynamic-cases-in-tests)]</sup>
+* <a name="dynamic-cases-in-tests"></a>No Dynamic Test generation.<sup>[[link](#dynamic-cases-in-tests)]</sup>
 
 ```ruby
 # BAD
