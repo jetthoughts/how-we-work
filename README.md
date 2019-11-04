@@ -88,6 +88,15 @@ end
 
 ## Test Conventions
 
+### Principles
+
+* Clarity means that a test should serve as readable documentation for humans, describing the code being tested in terms of its public APIs. 
+* A test is complete when its body contains all of the information you need to understand it, and concise when it doesn't contain any other distracting information.
+
+Ref: [Testing on the Toilet: What Makes a Good Test?](https://testing.googleblog.com/2014/03/testing-on-toilet-what-makes-good-test.html)
+
+### Rules
+
 * <a name="meaningful-names-in-tests"></a>We use the meaningful names in the test cases. It makes easier to understand the business logic.<sup>[[link](#meaningful-names-in-tests)]</sup>
 
 ```ruby
