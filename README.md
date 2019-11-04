@@ -77,7 +77,8 @@ end
 
 ## Working with Bugs
 
-* All bugs should be covered with tests and by **TDD**
+* Confirm on the master, the staging and finally on development environment. 
+* Add tests with reproduced bugs before add fixes
 
 ## Ruby on Rails Conventions
 
@@ -90,6 +91,7 @@ end
 
 ### Principles
 
+* TDD
 * Clarity means that a test should serve as readable documentation for humans, describing the code being tested in terms of its public APIs. 
 * A test is complete when its body contains all of the information you need to understand it, and concise when it doesn't contain any other distracting information.
 
@@ -97,6 +99,10 @@ Ref: [Testing on the Toilet: What Makes a Good Test?](https://testing.googleblog
 
 ### Rules
 
+* <a name="tdd-tests"></a>Tests First<sup>[[link](#tdd-tests)]</sup>
+  * <a name="black-box-tests"></a>Use Black Box testing strategy (there is no other way to support TDD)<sup>[[link](#black-box-tests)]</sup>
+
+    By ignoring the code (Black box testing), it demonstrates a different value system - the tests are valuable alone.
 * <a name="meaningful-names-in-tests"></a>We use the meaningful names in the test cases. It makes easier to understand the business logic.<sup>[[link](#meaningful-names-in-tests)]</sup>
 
 ```ruby
