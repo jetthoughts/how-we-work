@@ -93,8 +93,8 @@ end
 ```ruby
 # bad
 def test_email_is_normalized
-  user = User.create! email: ' strAngeEmail@example.com'
-  assert_equal 'strangeemail@example.com', user.email
+  user = User.create! email: 'Foo@quux.com'
+  assert_equal 'foo@quux.com', user.email
 end
 
 # good
@@ -102,6 +102,71 @@ def test_email_is_normalized
   user = User.create! email: ' thisIsAMixedCaseEmail@example.com'
   assert_equal 'thisisamixedcaseemail@example.com', user.email
 end
+```
+* <a name="big-fixtures-in-tests">Do not load more data than needed to test your code. For each test create exactly what it needs and not more. More variations provides more complexities.<sup>[[link](#big-fixtures-in-tests)]</sup>
+
+```ruby
+# BAD
+let!(:user_with_big_name) { ... }
+let!(:user_with_small_name) { ... }
+
+it 'this test use only user_with_big_name' { expects(response).to have(user_with_big_name) }
+it 'this test use only user_with_small_name' { expects(response).to have(user_with_small_name) }
+```
+
+```ruby
+# GOOD
+context 'with big name' do
+  let(:user) { ... }
+  
+  it 'this test use only user_with_big_name' { expects(response).to have(user) }
+end
+
+context 'with small name' do
+  let(:user) { ... }
+  
+  it 'this test use only user_with_small_name' { expects(response).to have(user) }
+end
+```
+
+```ruby
+# BAD
+setup do
+  big_file_with_all_users = compile_file_from_users(User.all)
+end
+
+test 'this test use only user_with_big_name' { assert_includes big_file_with_all_users, 'magic string with all big letter' }
+test 'this test use only user_with_small_name' { assert_includes big_file_with_all_users, 'magic string with all small letter' }
+```
+
+```ruby
+# GOOD
+test 'this test use only user_with_big_name' do
+  result = compile_file_from_users(User.new(name: 'Big Name'))
+  assert_includes result, 'Big Name'
+end
+
+test 'this test use only user_with_small_name' do
+  result = compile_file_from_users(User.new(name: 'Samll Name'))
+  assert_includes result, 'Small Name'
+end
+```
+
+* <a name="dynamic-cases-in-tests">No Dynamic Test generation<sup>[[link](#dynamic-cases-in-tests)]</sup>
+
+```ruby
+# BAD
+{ string: 'zone_id', array: %w[zone_id], hash: { "0" => "zone_id" } }.each do |type, group_by|
+  it "returns valid json if group_by is #{type}" do
+  end
+end
+```
+
+```ruby
+# GOOD
+it "returns zone_id json if group_by is string" { }
+it "returns [zone_id] json if group_by is array" { }
+it "returns { '0' => 'zone_id' } json if group_by is hash" { }
 ```
 
 ## Setup Development Environment
