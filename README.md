@@ -152,7 +152,7 @@ test 'this test use only user_with_small_name' do
 end
 ```
 
-* <a name="dynamic-cases-in-tests">No Dynamic Test generation<sup>[[link](#dynamic-cases-in-tests)]</sup>
+* <a name="dynamic-cases-in-tests">No Dynamic Test generation.<sup>[[link](#dynamic-cases-in-tests)]</sup>
 
 ```ruby
 # BAD
