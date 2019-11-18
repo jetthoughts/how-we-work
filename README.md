@@ -118,7 +118,11 @@ def test_email_is_normalized
   assert_equal 'thisisamixedcaseemail@example.com', user.email
 end
 ```
-* <a name="big-fixtures-in-tests"></a>Do not load more data than needed to test your code. For each test create exactly what it needs and not more. More variations provides more complexities.<sup>[[link](#big-fixtures-in-tests)]</sup>
+* <a name="big-fixtures-in-tests"></a>Do not load more data than needed to test your code. For each test create exactly what it needs and not more. More variations provides more complexities. More details could be found on http://xunitpatterns.com/Obscure%20Test.html#General%20Fixture <sup>[[link](#big-fixtures-in-tests)]</sup>
+
+  Message for reviewer: 
+
+  > Each check must be isolated and shouldn't depend or interfere with others. This will make your tests clear and well organized and help to clearly see the cause of the failure. Please check https://github.com/jetthoughts/how-we-work/blob/master/README.md#big-fixtures-in-tests
 
 ```ruby
 # BAD
