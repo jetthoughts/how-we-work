@@ -187,6 +187,35 @@ it "returns zone_id json if group_by is string" { }
 it "returns [zone_id] json if group_by is array" { }
 it "returns { '0' => 'zone_id' } json if group_by is hash" { }
 ```
+* <a name="irrelevant-information"></a>Irrelevant Information<sup>[[link](#irrelevant-information)]</sup>
+
+  Message for reviewer:
+
+  > The test is exposing a lot of irrelevant details about the fixture that distract the test reader from what really affects the behavior of the subject under test.
+
+
+```ruby
+describe 'PUT Update' do
+  let!(:user) { create :user }
+
+  # Bad
+  it 'updates user' do
+    attributes = { first_name: '..', last_name: '..', role: '..', email: '..' }
+    put: :update, params: { attributes }
+    expects(response.body).to eq attributes
+  end
+
+  # Good
+  it 'updates first_name' do
+    put: :update, params: { first_name: 'John Dou' }
+    expects(response.body).to have_attribute { first_name: 'John Dou' }
+  end
+
+  it 'updates email' do
+    put: :update, params: { email: 'email@example.com' }
+    expects(response.body).to have_attribute { email: 'email@example.com' }
+  end
+```
 
 ## Setup Development Environment
 
