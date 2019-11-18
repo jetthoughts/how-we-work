@@ -118,7 +118,7 @@ def test_email_is_normalized
   assert_equal 'thisisamixedcaseemail@example.com', user.email
 end
 ```
-* <a name="big-fixtures-in-tests"></a>Do not load more data than needed to test your code. For each test create exactly what it needs and not more. More variations provides more complexities. More details could be found on http://xunitpatterns.com/Obscure%20Test.html#General%20Fixture <sup>[[link](#big-fixtures-in-tests)]</sup>
+* <a name="big-fixtures-in-tests"></a>The test is building or referencing a larger fixture than is needed to verify the functionality in question. Do not load more data than needed to test your code. For each test create exactly what it needs and not more. More variations provides more complexities. More details could be found on http://xunitpatterns.com/Obscure%20Test.html#General%20Fixture <sup>[[link](#big-fixtures-in-tests)]</sup>
 
   Message for reviewer: 
 
